@@ -10,7 +10,7 @@
 #include <ESP8266WebServer.h>
 #include <ESP8266HTTPClient.h>
 #include <SPI.h>
-#include <ArduinoJson.h>
+//#include <ArduinoJson.h>
 #include <MFRC522.h>        //include RFID library
 
 #define SS_PIN D8 //RX slave select (SDA on MFRC522)

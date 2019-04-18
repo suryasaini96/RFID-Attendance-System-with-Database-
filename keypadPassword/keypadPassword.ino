@@ -16,7 +16,7 @@ const uint16_t WAIT_TIME = 200;
 // NOTE: These pin numbers will probably not work with your hardware and may
 // need to be adapted
 #define HARDWARE_TYPE MD_MAX72XX::GENERIC_HW
-#define MAX_DEVICES 1
+#define MAX_DEVICES 2
 #define CLK_PIN   13
 #define DATA_PIN  11
 #define CS_PIN    10
@@ -60,7 +60,7 @@ void loop(void)
   //mx.control(3, 0);
   if (customKey){
     //digitalWrite(CS_PIN,LOW);
-    P.write(customKey);
+    P.print("STOP");
     data+= customKey;
     Serial.println(data);
     delay(WAIT_TIME);

@@ -1,0 +1,12 @@
+Black: 0 significant digit, multiplier of 1
+Brown: 1 significant digit, multiplier of 10
+Red: 2 significant digit, multiplier of 100
+Orange: 3 significant digit, multiplier of 1,000 (kilo)
+Yellow: 4 significant digit, multiplier of 10,000 (10 kilo)
+Green: 5 significant digit, multiplier of 100,000 (mega)
+Blue: 6 significant digit, multiplier of 1,000,000 (10 mega)
+Violet: 7 significant digit
+Gray: 8 significant digit
+White: 9 significant digit
+Gold: multiplier of 1/10
+Silver: multiplier of 1/100
